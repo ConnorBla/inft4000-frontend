@@ -1,0 +1,158 @@
+/* General form styling */
+form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(145deg, #ffffff, #f3f3f3);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    animation: fadeIn 0.5s ease-in-out;
+    margin-top: 20px;
+}
+
+/* Form header */
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Input fields */
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+/* Focused input fields */
+input:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    background-color: #ffffff;
+}
+
+/* Error messages */
+.error {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: -8px;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(145deg, #007bff, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Hover effect for button */
+button:hover {
+    background: linear-gradient(145deg, #0056b3, #003f7f);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Disabled button */
+button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/* Form container spacing */
+form div {
+    margin-bottom: 15px;
+}
+
+/* Add subtle background for the page */
+body {
+    background: linear-gradient(145deg, #e3e3e3, #ffffff);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Add hover effect for inputs */
+input:hover, select:hover {
+    border-color: #007bff;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Concert information section */
+.concert-info {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: linear-gradient(145deg, #f9f9f9, #ffffff);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.concert-info h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.concert-info p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.concert-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    margin: 0 auto 20px;
+    display: block;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Ticket form container */
+.ticket-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: linear-gradient(145deg, #ffffff, #f3f3f3);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    color: #333;
+}
